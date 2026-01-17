@@ -2,6 +2,10 @@
 
 JavaScript
 folder_reder.js - створення списка папок та  файлів в корнвій папці
+File watcher – відслідковує зміни у файлах і автоматично виконує дію (наприклад, перезапуск сервера).
+RecursiveFileSearch - рекурсивний пошук файлів за розширенням
+
+
 
 Python
 reading a list of directories and folders.py - створення списка папок та  файлів в корнвій папці
