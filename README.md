@@ -19,3 +19,4 @@ duplicate_files_finder.js — search for duplicate files (пошук дублі�
 Python
 reading a list of directories and folders.py - створення списка папок та  файлів в корнвій папці
 send_file_to_local_PC - передача файла с компьютера на компьютер через ssh и  бібліотеку paramiko
+windows_services_list.py - displays a list of all Windows services registered on the system. (виводить список усіх служб Windows, які зареєстровані в системі.)
