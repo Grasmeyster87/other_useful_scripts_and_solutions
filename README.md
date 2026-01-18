@@ -4,6 +4,8 @@ JavaScript
 folder_reder.js - створення списка папок та  файлів в корнвій папці
 File watcher – відслідковує зміни у файлах і автоматично виконує дію (наприклад, перезапуск сервера).
 RecursiveFileSearch - рекурсивний пошук файлів за розширенням
+scan_local_network.js — local boundary scanning (ping sweep) Indicates active hosts in the boundary. 
+(сканування локальної мережі (ping sweep) Визначає активні хости в підмережі).
 
 
 
