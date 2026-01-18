@@ -13,6 +13,8 @@ scan_local_network.js — local boundary scanning (ping sweep) Indicates active 
 
 get_local_ip.js — getting a local IP address (отримання локальної IP-адреси)
 
+duplicate_files_finder.js — search for duplicate files (пошук дублікатів файлів)
+
 
 Python
 reading a list of directories and folders.py - створення списка папок та  файлів в корнвій папці
