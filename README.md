@@ -19,6 +19,8 @@ bulk_renamer.js - multiple renaming  ((Масове перейменування
 
 old_files_cleaner.js - Cleaning Old Files ((Очистка старих файлів) Увага: Цей скрипт видаляє файли! Я додав змінну dryRun, яка за замовчуванням true. Це означає, що скрипт спочатку тільки покаже, що він збирається видалити. Щоб видалити реально, змініть її на false.)
 
+dir_size_calculator.js - Recursive Folder Rose ((Рекурсивний розмір папки) Рахує розмір папки разом з усіма вкладеними підпапками.)
+
 
 Python
 reading a list of directories and folders.py - створення списка папок та  файлів в корнвій папці
