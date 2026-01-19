@@ -21,6 +21,8 @@ old_files_cleaner.js - Cleaning Old Files ((Очистка старих файл
 
 dir_size_calculator.js - Recursive Folder Rose ((Рекурсивний розмір папки) Рахує розмір папки разом з усіма вкладеними підпапками.)
 
+git_batch_pull.js Mass update of .git repositories ((Масове оновлення репозиторіїв) Скрипт проходить по всіх папках у поточній директорії. Якщо бачить папку .git всередині, виконує команду git pull.)
+
 
 Python
 reading a list of directories and folders.py - створення списка папок та  файлів в корнвій папці
