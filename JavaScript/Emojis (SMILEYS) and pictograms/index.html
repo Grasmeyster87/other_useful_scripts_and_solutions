@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Unicode Master Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Таблиця Символів Unicode</h1>
+  
+  <div id="categories">
+    <button class="cat-btn active" data-type="list" data-source="popular">🔥 ТОП Популярні</button>
+    <button class="cat-btn" data-type="range" data-start="0" data-end="255">ASCII (0-255)</button>
+    <button class="cat-btn" data-type="range" data-start="128512" data-end="128591">😀 Смайли</button>
+    <button class="cat-btn" data-type="range" data-start="127744" data-end="128319">🚀 Символи та Речі</button>
+    <button class="cat-btn" data-type="range" data-start="8592" data-end="8703">⬅️ Стрілки</button>
+    <button class="cat-btn" data-type="range" data-start="9984" data-end="10175">✂️ Dingbats</button>
+    <button class="cat-btn" data-type="range" data-start="0" data-end="1114111">♾️ Всі символи</button>
+  </div>
+
+  <input type="text" id="search" placeholder="Пошук (символ або код)...">
+
+  <table>
+    <thead>
+      <tr>
+        <th>Код</th><th>Символ</th>
+        <th>Код</th><th>Символ</th>
+        <th>Код</th><th>Символ</th>
+        <th>Код</th><th>Символ</th>
+      </tr>
+    </thead>
+    <tbody id="ascii-table"></tbody>
+  </table>
+
+  <div id="loading">Завантаження...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
