@@ -23,6 +23,8 @@ dir_size_calculator.js - Recursive Folder Rose ((Рекурсивний розм
 
 git_batch_pull.js Mass update of .git repositories ((Масове оновлення репозиторіїв) Скрипт проходить по всіх папках у поточній директорії. Якщо бачить папку .git всередині, виконує команду git pull.)
 
+tableASCII - output to the browser page of ASCII table characters (вивід на сторінку браузера символів таблиці ASCII)
+
 
 Python
 reading a list of directories and folders.py - створення списка папок та  файлів в корнвій папці

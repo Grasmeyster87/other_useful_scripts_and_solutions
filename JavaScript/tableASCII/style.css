@@ -1,0 +1,48 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #1e1e2f;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffcc00;
+}
+
+#search {
+  margin: 15px 0;
+  padding: 8px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background: #333;
+  color: #ffcc00;
+}
+
+tr:hover {
+  background: #444;
+  cursor: pointer;
+}
+
+.highlight {
+  background: #ffcc00;
+  color: #000;
+  transition: background 0.3s ease;
+}
