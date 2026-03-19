@@ -43,6 +43,9 @@ git_batch_pull.py — масове оновлення git-репозиторії
 All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
 Список всіх встановлених програм данни м скриптом зберігається в тхт файл
 
+dir_size_calculator.py — рекурсивний розрахунок розміру папки**
+**Опис:** підраховує загальний розмір директорії і виводить топ N за розміром.  
+
 C++ --------------------------------------------------------------------------------------------------
 All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
 Список всіх встановлених програм данни м скриптом зберігається в тхт файл
