@@ -1,6 +1,6 @@
 # other_useful_scripts_and_solutions
 
-JavaScript
+JavaScript-----------------------------------------------------------------------------------
 
 folder_reder.js - створення списка папок та  файлів в корнвій папці
 
@@ -26,7 +26,9 @@ git_batch_pull.js Mass update of .git repositories ((Масове оновлен
 tableASCII - output to the browser page of ASCII table characters (вивід на сторінку браузера символів таблиці ASCII)
 Emojis (SMILEYS) and pictograms 
 
-Python
+All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
+Список всіх встановлених програм данни м скриптом зберігається в тхт файл
+Python-------------------------------------------------------------------------------------------
 reading a list of directories and folders.py - створення списка папок та  файлів в корнвій папці
 
 send_file_to_local_PC - передача файла с компьютера на компьютер через ssh и  бібліотеку paramiko
@@ -37,3 +39,10 @@ recursive_file_search.py — search by extension (пошук за розшире
 
 git_batch_pull.py — масове оновлення git-репозиторіїв**
 **Опис:** проходить підпапки, знаходить `.git` і виконує `git pull`
+
+All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
+Список всіх встановлених програм данни м скриптом зберігається в тхт файл
+
+C++ --------------------------------------------------------------------------------------------------
+All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
+Список всіх встановлених програм данни м скриптом зберігається в тхт файл
