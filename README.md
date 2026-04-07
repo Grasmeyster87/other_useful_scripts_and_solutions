@@ -28,6 +28,10 @@ Emojis (SMILEYS) and pictograms
 
 All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
 Список всіх встановлених програм данни м скриптом зберігається в тхт файл
+
+system_monitor_logger.js — system monitoring and logging  
+(Мониторинг системы и логирование: CPU, RAM, uptime с записью в файл)
+
 Python-------------------------------------------------------------------------------------------
 reading a list of directories and folders.py - створення списка папок та  файлів в корнвій папці
 
