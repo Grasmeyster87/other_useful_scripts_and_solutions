@@ -54,6 +54,14 @@ auto_backup_to_zip.py — intelligent creation of backup copies. Packs specified
 
 розумне створення резервних копій. Пакує вказані робочі папки у ZIP-архів із міткою часу. Головна фішка — він вміє ігнорувати "важкі" директорії (наприклад, node_modules, .git, __pycache__, venv), щоб бекап створювався миттєво і займав мінімум місця.
 
+hash_duplicate_finder.py - (search for duplicates instead)**
+Description: It matches files not by name, but by their “bit” (MD5 hash). This allows you to find absolutely new photos and documents, even if they have been renamed.
+
+deep duplicate search (пошук дублікатів за вмістом)**
+Опис: Порівнює файли не за назвою, а за їхнім «відбитком» (MD5 хеш). Це дозволяє знайти абсолютно однакові фото чи документи, навіть якщо вони перейменовані.
+
+
+
 C++ --------------------------------------------------------------------------------------------------
 All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
 Список всіх встановлених програм данни м скриптом зберігається в тхт файл
