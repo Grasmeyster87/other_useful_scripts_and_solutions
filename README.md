@@ -50,6 +50,10 @@ All_programs_Win_11 - a list of all programs installed by the script is saved in
 dir_size_calculator.py — рекурсивний розрахунок розміру папки**
 **Опис:** підраховує загальний розмір директорії і виводить топ N за розміром.  
 
+auto_backup_to_zip.py — intelligent creation of backup copies. Packs specified working folders from ZIP archives with a time stamp. The main trick is to ignore “important” directories (for example, node_modules, .git, __pycache__, venv), so that the backup is created and takes up minimal space.
+
+розумне створення резервних копій. Пакує вказані робочі папки у ZIP-архів із міткою часу. Головна фішка — він вміє ігнорувати "важкі" директорії (наприклад, node_modules, .git, __pycache__, venv), щоб бекап створювався миттєво і займав мінімум місця.
+
 C++ --------------------------------------------------------------------------------------------------
 All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
 Список всіх встановлених програм данни м скриптом зберігається в тхт файл
