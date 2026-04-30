@@ -1,67 +1,62 @@
 # other_useful_scripts_and_solutions
 
-JavaScript-----------------------------------------------------------------------------------
+---
 
-folder_reder.js - створення списка папок та  файлів в корнвій папці
+## JavaScript
 
-File watcher – відслідковує зміни у файлах і автоматично виконує дію (наприклад, перезапуск сервера).
+**folder_reader.js** — створення списку папок та файлів у кореневій папці.
 
-RecursiveFileSearch - рекурсивний пошук файлів за розширенням
+**file_watcher.js** — відслідковує зміни у файлах і автоматично виконує дію (наприклад, перезапуск сервера).
 
-scan_local_network.js — local boundary scanning (ping sweep) Indicates active hosts in the boundary. 
-(сканування локальної мережі (ping sweep) Визначає активні хости в підмережі).
+**recursive_file_search.js** — рекурсивний пошук файлів за розширенням.
 
-get_local_ip.js — getting a local IP address (отримання локальної IP-адреси)
+**scan_local_network.js** — сканування локальної мережі (ping sweep). Визначає активні хости в підмережі.
 
-duplicate_files_finder.js — search for duplicate files (пошук дублікатів файлів)
+**get_local_ip.js** — отримання локальної IP-адреси.
 
-bulk_renamer.js - multiple renaming  ((Масове перейменування) Цей скрипт замінює пробіли у назвах файлів на підкреслення _ і переводить назву у нижній регістр. Це класична задача для впорядкування файлів.)
+**duplicate_files_finder.js** — пошук дублікатів файлів.
 
-old_files_cleaner.js - Cleaning Old Files ((Очистка старих файлів) Увага: Цей скрипт видаляє файли! Я додав змінну dryRun, яка за замовчуванням true. Це означає, що скрипт спочатку тільки покаже, що він збирається видалити. Щоб видалити реально, змініть її на false.)
+**bulk_renamer.js** — масове перейменування. Замінює пробіли у назвах файлів на підкреслення `_` і переводить назву у нижній регістр. Класична задача для впорядкування файлів.
 
-dir_size_calculator.js - Recursive Folder Rose ((Рекурсивний розмір папки) Рахує розмір папки разом з усіма вкладеними підпапками.)
+**old_files_cleaner.js** — очистка старих файлів. Увага: скрипт видаляє файли! Додано змінну `dryRun`, яка за замовчуванням `true` — скрипт спочатку тільки покаже, що він збирається видалити. Щоб видалити реально, змініть її на `false`.
 
-git_batch_pull.js Mass update of .git repositories ((Масове оновлення репозиторіїв) Скрипт проходить по всіх папках у поточній директорії. Якщо бачить папку .git всередині, виконує команду git pull.)
+**dir_size_calculator.js** — рекурсивний розмір папки. Рахує розмір папки разом з усіма вкладеними підпапками.
 
-tableASCII - output to the browser page of ASCII table characters (вивід на сторінку браузера символів таблиці ASCII)
-Emojis (SMILEYS) and pictograms 
+**git_batch_pull.js** — масове оновлення git-репозиторіїв. Проходить по всіх папках у поточній директорії, знаходить `.git` всередині і виконує `git pull`.
 
-All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
-Список всіх встановлених програм данни м скриптом зберігається в тхт файл
+**tableASCII** — вивід на сторінку браузера символів таблиці ASCII, Emojis (SMILEYS) та піктограм.
 
-system_monitor_logger.js — system monitoring and logging  
-(Мониторинг системы и логирование: CPU, RAM, uptime с записью в файл)
+**All_programs_Win_11.js** — список всіх встановлених програм. Зберігається у txt-файл.
 
-Python-------------------------------------------------------------------------------------------
-reading a list of directories and folders.py - створення списка папок та  файлів в корнвій папці
+**system_monitor_logger.js** — моніторинг системи та логування: CPU, RAM, uptime із записом у файл.
 
-send_file_to_local_PC - передача файла с компьютера на компьютер через ssh и  бібліотеку paramiko
+**clipboard_history.js** —  clipboard history. Tracks changes to the clipboard and saves the history to a file with timestamps. No external dependencies, runs on Windows via PowerShell. Supports write limits, interval settings, and preview in the console.
+історія буфера обміну. Відстежує зміни в clipboard і зберігає історію у файл із часовими мітками. Без зовнішніх залежностей, працює на Windows через PowerShell. Підтримує обмеження записів, налаштування інтервалу та попередній перегляд у консолі.
 
-windows_services_list.py - displays a list of all Windows services registered on the system. (виводить список усіх служб Windows, які зареєстровані в системі.)
+---
 
-recursive_file_search.py — search by extension (пошук за розширенням)
+## Python
 
-git_batch_pull.py — масове оновлення git-репозиторіїв**
-**Опис:** проходить підпапки, знаходить `.git` і виконує `git pull`
+**reading a list of directories and folders.py** — створення списку папок та файлів у кореневій папці.
 
-All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
-Список всіх встановлених програм данни м скриптом зберігається в тхт файл
+**send_file_to_local_PC.py** — передача файлу з комп'ютера на комп'ютер через SSH та бібліотеку `paramiko`.
 
-dir_size_calculator.py — рекурсивний розрахунок розміру папки**
-**Опис:** підраховує загальний розмір директорії і виводить топ N за розміром.  
+**windows_services_list.py** — виводить список усіх служб Windows, які зареєстровані в системі.
 
-auto_backup_to_zip.py — intelligent creation of backup copies. Packs specified working folders from ZIP archives with a time stamp. The main trick is to ignore “important” directories (for example, node_modules, .git, __pycache__, venv), so that the backup is created and takes up minimal space.
+**recursive_file_search.py** — пошук файлів за розширенням.
 
-розумне створення резервних копій. Пакує вказані робочі папки у ZIP-архів із міткою часу. Головна фішка — він вміє ігнорувати "важкі" директорії (наприклад, node_modules, .git, __pycache__, venv), щоб бекап створювався миттєво і займав мінімум місця.
+**git_batch_pull.py** — масове оновлення git-репозиторіїв. Проходить підпапки, знаходить `.git` і виконує `git pull`.
 
-hash_duplicate_finder.py - (search for duplicates instead)**
-Description: It matches files not by name, but by their “bit” (MD5 hash). This allows you to find absolutely new photos and documents, even if they have been renamed.
+**All_programs_Win_11.py** — список всіх встановлених програм. Зберігається у txt-файл.
 
-deep duplicate search (пошук дублікатів за вмістом)**
-Опис: Порівнює файли не за назвою, а за їхнім «відбитком» (MD5 хеш). Це дозволяє знайти абсолютно однакові фото чи документи, навіть якщо вони перейменовані.
+**dir_size_calculator.py** — рекурсивний розрахунок розміру папки. Підраховує загальний розмір директорії і виводить топ N за розміром.
 
+**auto_backup_to_zip.py** — розумне створення резервних копій. Пакує вказані робочі папки у ZIP-архів із міткою часу. Головна фішка — вміє ігнорувати «важкі» директорії (наприклад, `node_modules`, `.git`, `__pycache__`, `venv`), щоб бекап створювався миттєво і займав мінімум місця.
 
+**hash_duplicate_finder.py** — глибокий пошук дублікатів за вмістом. Порівнює файли не за назвою, а за їхнім «відбитком» (MD5 хеш). Це дозволяє знайти абсолютно однакові фото чи документи, навіть якщо вони перейменовані.
 
-C++ --------------------------------------------------------------------------------------------------
-All_programs_Win_11 - a list of all programs installed by the script is saved in a txt file.
-Список всіх встановлених програм данни м скриптом зберігається в тхт файл
+---
+
+## C++
+
+**All_programs_Win_11.cpp** — список всіх встановлених програм. Зберігається у txt-файл.
