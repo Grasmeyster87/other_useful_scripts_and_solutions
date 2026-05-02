@@ -55,6 +55,8 @@
 
 **hash_duplicate_finder.py** — глибокий пошук дублікатів за вмістом. Порівнює файли не за назвою, а за їхнім «відбитком» (MD5 хеш). Це дозволяє знайти абсолютно однакові фото чи документи, навіть якщо вони перейменовані.
 
+**downloaderFile.py** — File downloads with the ability to resume downloads, a progress bar showing downloads/total, and download speed in KB
+закачування файлів з можливістю докачування прогрес баром завантажено/всього і швидкістю скачування в кБ
 ---
 
 ## C++
