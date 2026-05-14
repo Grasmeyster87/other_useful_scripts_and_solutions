@@ -57,6 +57,8 @@
 
 **downloaderFile.py** — File downloads with the ability to resume downloads, a progress bar showing downloads/total, and download speed in KB
 закачування файлів з можливістю докачування прогрес баром завантажено/всього і швидкістю скачування в кБ
+
+**port_scanner.py** - TCP port scanner. Checks for open ports on a local or remote host. Supports scanning a single port, a list of ports, or an entire range. Useful for checking local services, servers, Docker containers, databases, and network diagnostics.                                                                                                                                                                        TCP port scanner. Перевіряє відкриті порти на локальному або віддаленому хості. Підтримує сканування одного порту, списку портів або цілого діапазону. Корисний для перевірки локальних сервісів, серверів, Docker-контейнерів, баз даних та мережевої діагностики.
 ---
 
 ## C++
