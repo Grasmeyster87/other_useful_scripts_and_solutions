@@ -33,6 +33,7 @@
 **clipboard_history.js** —  clipboard history. Tracks changes to the clipboard and saves the history to a file with timestamps. No external dependencies, runs on Windows via PowerShell. Supports write limits, interval settings, and preview in the console.
 історія буфера обміну. Відстежує зміни в clipboard і зберігає історію у файл із часовими мітками. Без зовнішніх залежностей, працює на Windows через PowerShell. Підтримує обмеження записів, налаштування інтервалу та попередній перегляд у консолі.
 
+**merge-files.js** - merging project files into one
 ---
 
 ## Python
