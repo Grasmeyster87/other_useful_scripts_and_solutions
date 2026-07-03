@@ -34,6 +34,7 @@
 історія буфера обміну. Відстежує зміни в clipboard і зберігає історію у файл із часовими мітками. Без зовнішніх залежностей, працює на Windows через PowerShell. Підтримує обмеження записів, налаштування інтервалу та попередній перегляд у консолі.
 
 **merge-files.js** - merging project files into one
+**get-all-commits.js** - getting git commits from all branches.
 ---
 
 ## Python
