@@ -62,8 +62,46 @@
 
 **port_scanner.py** - TCP port scanner. Checks for open ports on a local or remote host. Supports scanning a single port, a list of ports, or an entire range. Useful for checking local services, servers, Docker containers, databases, and network diagnostics.                                                                                                                                                                        TCP port scanner. Перевіряє відкриті порти на локальному або віддаленому хості. Підтримує сканування одного порту, списку портів або цілого діапазону. Корисний для перевірки локальних сервісів, серверів, Docker-контейнерів, баз даних та мережевої діагностики.
 
-**check_media.py** -  Checking media files in the specified directory for readability                                                                                                                                                                    Перевірка медіафайлів в указаній директорії на можливість читання
-python check_media.py D:\Music.
+**check_media.py** - Checking media files in the specified directory for readability  
+Перевірка медіафайлів в указаній директорії на можливість читання  
+
+## 📂 Folder traversal depth / Глибина обходу папок
+- `--depth N` → check only up to the specified nesting level  
+- `--depth inf` → infinite depth (default, scans all subfolders)  
+- `--depth 0` → only the specified folder itself  
+
+---
+
+## 🎬 File checking modes / Режими перевірки файлів
+- `--mode open` → fast check using **ffprobe** (only opening and metadata)  
+- `--mode full` → full run using **ffmpeg** (decoding the entire file)  
+
+---
+
+## 📝 Log modes / Режими логування
+- `--logmode errors` → save only problematic files to log  
+- `--logmode all` → save the full list of checked files with results  
+
+---
+
+## ⚡ Examples / Приклади
+
+### 1. Check all nested folders, fast mode, log only errors  
+```bash
+python check_media.py D:\Music --depth inf --mode open --logmode errors
+```
+
+### 2. Check only current folder and one level of subfolders, full run, log all files  
+```bash
+python check_media.py D:\Music --depth 1 --mode full --logmode all
+```
+
+---
+
+## ✅ Requirements / Вимоги
+- Python 3.10+  
+- Installed **ffmpeg** and **ffprobe** (must be available in PATH)  
+
 ---
 
 ## C++

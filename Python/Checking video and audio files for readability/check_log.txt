@@ -1,0 +1,8 @@
+[FAIL] D:\Music\UKR\Hej, Sokoły! (polska wersja) Гей, соколи! (українська версія).mp4 — ошибка: [mov,mp4,m4a,3gp,3g2,mj2 @ 0000000000680ac0] moov atom not found
+D:\Music\UKR\Hej, Sokoły! (polska wersja) Гей, соколи! (українська версія).mp4: Invalid data found when processing input
+[FAIL] D:\Music\UKR\Воплі Відоплясова - ВЕСНА.mp4 — ошибка: [mov,mp4,m4a,3gp,3g2,mj2 @ 00000000006f0980] moov atom not found
+D:\Music\UKR\Воплі Відоплясова - ВЕСНА.mp4: Invalid data found when processing input
+[FAIL] D:\Music\UKR\Ой, у лузі червона калина - військовий оркестр 406-ї ОАБР ім.генерал-хорунжого О.Алмазова.mp4 — ошибка: [mov,mp4,m4a,3gp,3g2,mj2 @ 0000000000732a00] moov atom not found
+D:\Music\UKR\Ой, у лузі червона калина - військовий оркестр 406-ї ОАБР ім.генерал-хорунжого О.Алмазова.mp4: Invalid data found when processing input
+[FAIL] D:\Music\UKR\YARMAK\YARMAK feat TARABAROVA - ВОЇН.mp4 — ошибка: [mov,mp4,m4a,3gp,3g2,mj2 @ 00000000007c1b80] moov atom not found
+D:\Music\UKR\YARMAK\YARMAK feat TARABAROVA - ВОЇН.mp4: Invalid data found when processing input
